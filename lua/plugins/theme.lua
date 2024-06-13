@@ -11,15 +11,29 @@
 -- 	},
 -- }
 --
+-- return {
+-- 	-- add tokyonight
+-- 	{ "folke/tokyonight.nvim" },
+--
+-- 	-- Configure LazyVim to load gruvbox
+-- 	{
+-- 		"LazyVim/LazyVim",
+-- 		opts = {
+-- 			colorscheme = "tokyonight",
+-- 			style = "day",
+-- 		},
+-- 	},
+-- }
+
 return {
 	-- add tokyonight
-	{ "folke/tokyonight.nvim" },
+	{ "Mofiqul/dracula.nvim" },
 
 	-- Configure LazyVim to load gruvbox
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "tokyonight",
+			colorscheme = "dracula",
 			style = "day",
 		},
 	},
